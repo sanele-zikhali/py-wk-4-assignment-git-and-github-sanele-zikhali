@@ -1,4 +1,4 @@
-def read_and_file():
+def read_and_write_file():
     try:
         filename = input("Enter the filename to read: ")
         with open(filename, 'r') as file:
